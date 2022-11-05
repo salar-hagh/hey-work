@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Dana;
+  src: url(./../assets/fonts/Dana-Light.woff2);
+  font-weight: 100;
+}
+@font-face {
+  font-family: Dana;
+  src: url(./../assets/fonts/Dana-Regular.woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Dana;
+  src: url(./../assets/fonts/Dana-Medium.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Dana;
+  src: url(./../assets/fonts/Dana-Bold.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Dana;
+  src: url(./../assets/fonts/Dana-ExtraBold.woff2);
+  font-weight: 900;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Dana;
+  font-weight: 300;
+  font-size: 16px;
+  color: #363b3d;
+  background-color: #edf4fc;
+  box-sizing: border-box;
+}
+
+* {
+  border: none;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  font-weight: 100;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #4e91e6;
+}
+
+.css-1s2u09g-control {
+  border: 1px solid #4e91e6 !important;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ant-row {
+  flex-direction: row-reverse;
+}
